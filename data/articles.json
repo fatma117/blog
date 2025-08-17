@@ -1,0 +1,14 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Artificial - HTB Linux Machine Walkthrough",
+            "category": "HTB Writeup",
+            "date": "2025-8-17",
+            "excerpt": "An easy-rated Linux machine that demonstrates the importance of not placing too much trust seemingly legit AI models...",
+            "tags": ["Linux", "Easy", "Docker", "TensorFlow", "AI"],
+            "markdown_file": "artificial.md"
+        }
+    ],
+    "tags": ["Linux", "Easy", "Docker", "TensorFlow", "AI", "Web Exploitation", "HTB", "Writeup"]
+}
