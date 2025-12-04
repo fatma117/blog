@@ -1,4 +1,5 @@
 # Soulmate -  Machine Walkthrough
+![soulmate ](../assets/images/soulmate/soulmate.png)
 ## Initial Enumeration
 
 ```bash
@@ -74,9 +75,34 @@ After searching, I found this strange file that was running as root:
 i checked it out and found creds  to an ssh!! yay
 
 ![./linpeas.sh](../assets/images/soulmate/credsssh.png)
-
+## User flag
 so i logged in using those creds and got my user flag 
 ![./linpeas.sh](../assets/images/soulmate/userflag.png)
+
+## ROOT
+
+After running lipeas  ( and ss -tuln ) again, it appears that there is a service running on port 2222 called Erlang SSH service.
+
+The Erlang SSH service is a built-in service in the Erlang programming language that allows you to create an SSH server or client that supports the Secure Shell (SSH) protocol.
+In our case, it is a server running on port 2222 that allows users to connect to it via SSH and execute custom commands (not necessarily system commands — they can be application-specific).
+
+![ss -tuln](../assets/images/soulmate/runningaain.png)
+
+After researching, it turns out that you can execute system commands directly using: os:cmd("COMMAND") 
+( replace COMMAND with the command u want to run )
+
+![root flag](../assets/images/soulmate/root.png)
+
+## SUMMARY 
+The Soulmate machine combines modern real-world vulnerabilities with classic privilege-escalation techniques. Initial enumeration revealed a CrushFTP instance hosted on a hidden subdomain, which turned out to be affected by CVE-2025-31161, a critical authentication bypass vulnerability. By exploiting this flaw, access to the CrushFTP admin panel was gained, allowing password manipulation for other system users.
+
+From there, file upload permissions were abused to deploy a PHP reverse shell, granting a foothold on the target. System enumeration uncovered leaked SSH credentials in a root-owned configuration file, enabling escalation to a regular system user. Finally, an unexpected Erlang SSH service running on port 2222 provided a direct code-execution path through the os:cmd/1 function, resulting in full root compromise.
+
+
+
+
+
+
 
 
 
