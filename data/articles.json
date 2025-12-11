@@ -14,7 +14,7 @@
             "title": "Soulmate - HTB Linux Machine Walkthrough",
             "category": "HTB Writeup",
             "date": "2025-10-25",
-            "excerpt": "an easy-rated machine for people with CRUSH es",
+            "excerpt": "",
             "tags": ["Linux", "Easy", "Web Exploitation", "HTB", "Writeup"],
             "markdown_file": "soulmate.md"
         },
@@ -24,10 +24,10 @@
             "category": "HTB Writeup",
             "date": "2025-11-10",
             "excerpt": "",
-            "tags": ["Linux", "Easy", "HTB", "Writeup"],
+            "tags": ["Linux", "Easy", "ISAKMP" , "VPN", "Handshake","Ike-scan" "HTB", "Writeup"],
             "markdown_file": "expressway.md"
         }
     ],
 
-    "tags": ["Linux", "Easy", "Docker", "TensorFlow", "AI", "Web Exploitation", "HTB", "Writeup", "crushFTP"]
+    "tags": ["Linux", "Easy", "HTB", "Writeup"]
 }
