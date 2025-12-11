@@ -24,10 +24,10 @@
             "category": "HTB Writeup",
             "date": "2025-11-10",
             "excerpt": "",
-            "tags": ["Linux", "Easy", "ISAKMP" , "VPN", "Handshake","Ike-scan" "HTB", "Writeup"],
+            "tags": ["Linux", "Easy", "ISAKMP" , "VPN", "Handshake", "HTB", "Writeup"],
             "markdown_file": "expressway.md"
         }
     ],
 
-    "tags": ["Linux", "Easy", "HTB", "Writeup"]
+    "tags": ["Linux", "Easy", "Docker", "TensorFlow", "AI", "Web Exploitation", "HTB", "Writeup"]
 }
