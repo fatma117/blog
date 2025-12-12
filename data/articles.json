@@ -6,7 +6,13 @@
             "category": "HTB Writeup",
             "date": "2025-8-17",
             "excerpt": "An easy-rated Linux machine that demonstrates the importance of not placing too much trust seemingly legit AI models...",
-            "tags": ["Linux", "Easy", "Docker", "TensorFlow", "AI"],
+            "tags": [
+                "Linux",
+                "Easy",
+                "Docker",
+                "TensorFlow",
+                "AI"
+            ],
             "markdown_file": "artificial.md"
         },
         {
@@ -18,16 +24,56 @@
             "tags": ["Linux", "Easy", "Web Exploitation", "HTB", "Writeup"],
             "markdown_file": "soulmate.md"
         },
-         {
+        {
             "id": 3,
             "title": "Expressway - HTB Linux Machine Walkthrough",
             "category": "HTB Writeup",
             "date": "2025-11-10",
             "excerpt": "",
-            "tags": ["Linux", "Easy", "ISAKMP" , "VPN", "Handshake", "HTB", "Writeup"],
+            "tags": [
+                "Linux",
+                "Easy",
+                "ISAKMP",
+                "VPN",
+                "Handshake",
+                "HTB",
+                "Writeup"
+            ],
             "markdown_file": "expressway.md"
+        },
+        {
+            "id": 4,
+            "title": "Cybersecurity Risk Assessment Using Markov Chains",
+            "category": "Research",
+            "date": "2025-12-12",
+            "excerpt": "A comprehensive cybersecurity risk assessment framework implementing an improved stochastic model using Absorbing Markov Chains (AMC) and Markov Reward Models (MRM) to analyze network vulnerabilities and attack paths.",
+            "tags": [
+                "Cybersecurity",
+                "Markov Chains",
+                "Risk Assessment",
+                "Python",
+                "Research",
+                "Network Security",
+                "Vulnerability Analysis"
+            ],
+            "markdown_file": "markov-chains.md"
         }
     ],
-
-    "tags": ["Linux", "Easy", "Docker", "TensorFlow", "AI", "Web Exploitation", "HTB", "Writeup"]
+    "tags": [
+        "Linux",
+        "Easy",
+        "Docker",
+        "TensorFlow",
+        "AI",
+        "Web Exploitation",
+        "HTB",
+        "Writeup",
+        "Cybersecurity",
+        "Markov Chains",
+        "Risk Assessment",
+        "Python",
+        "Research",
+        "Network Security",
+        "Vulnerability Analysis"
+    ]
 }
